@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.name {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pag-item {
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+.item-active{
+  background-color: cadetblue;
+}
